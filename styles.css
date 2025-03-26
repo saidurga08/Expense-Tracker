@@ -21,8 +21,48 @@ h4 {
 }
 
 .container {
-  width: 700px;
+  width: 800px;
   padding: 25px;
   background-color: #982e2e;
   border-color: white;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  background-color: #e4abab;
+  color: black;
+  border: none;
+}
+
+::placeholder {
+  padding-left: 10px;
+  color: black;
+}
+
+label {
+  font-size: 25px;
+}
+
+select {
+  background-color: #e4abab;
+}
+
+button {
+  padding: 10px;
+  background-color: #e4abab;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(127, 58, 58);
+  color: white;
 }
