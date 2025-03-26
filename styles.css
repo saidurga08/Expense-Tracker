@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #e4abab;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+  margin: 25px;
+}
+
+.container {
+  width: 700px;
+  padding: 25px;
+  background-color: #982e2e;
+  border-color: white;
+}
