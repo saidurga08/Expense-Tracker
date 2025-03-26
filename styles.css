@@ -66,3 +66,21 @@ button:hover {
   background-color: rgb(127, 58, 58);
   color: white;
 }
+
+#expense-list li {
+  background-color: #e4abab;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#result {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
