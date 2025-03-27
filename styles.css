@@ -85,3 +85,7 @@ button:hover {
 .hidden {
   display: none;
 }
+
+ul {
+  color: black;
+}
